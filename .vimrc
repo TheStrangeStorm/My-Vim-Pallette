@@ -2,15 +2,18 @@ if (has("termguicolors"))
 	set termguicolors
 endif
 
+" A000FF
+
 set number
 syntax on
-hi String guifg=#00FFFF
-hi PreProc guifg=#A000FF
+hi String guifg=#FFF8DC
+hi PreProc guifg=#FF8800
 hi LineNr guifg=#505050
 hi Comment guifg=#FF8000
-hi Type guifg=#FF4080
-hi Statement guifg=#FF0F40
-hi Constant guifg=#00FF40
-hi Normal guibg=#2A1620
-hi Special guifg=#8000FF
-hi MatchParen guibg=#00FF88
+hi Type guifg=#FFDEAD
+hi Statement guifg=#D2691E
+hi Constant guifg=#FFFF00
+hi Normal guibg=#2f1e0d
+hi Special guifg=#F6A192
+hi MatchParen guibg=#DAA520
+hi Identifier guifg=#A52A2A
